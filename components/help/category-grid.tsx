@@ -41,7 +41,7 @@ export function CategoryGrid({ group, title, description }: { group: "main" | "o
                 </p>
               </div>
               <span className="mt-auto flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                Konuları görüntüle
+                Tüm konuları görüntüle
                 <ArrowRight className="size-3.5" />
               </span>
             </Link>
