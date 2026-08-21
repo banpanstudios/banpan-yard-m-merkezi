@@ -25,7 +25,7 @@ export default async function SearchPage({
       <main className="flex-1">
         <div className="border-b border-border bg-secondary/40 py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
-            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">Arama sonuçları</h1>
+            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">Makale arama sonuçlarımız</h1>
             <div className="mt-4">
               <SearchBox initialQuery={q ?? ""} />
             </div>
@@ -42,9 +42,9 @@ export default async function SearchPage({
           {query && results.length === 0 && (
             <div className="flex flex-col items-center gap-3 rounded-xl border border-border bg-card py-16 text-center">
               <SearchX className="size-8 text-muted-foreground" />
-              <p className="font-medium text-foreground">Sonuç bulunamadı</p>
+              <p className="font-medium text-foreground">404 Sonuç bulunamamıştır.</p>
               <p className="max-w-sm text-sm text-muted-foreground text-pretty">
-                Farklı bir arama terimi deneyin veya destek ekibimizle doğrudan iletişime geçin.
+                Apple için sorunlarınızı apple.support.banpansoftware.com üzerinden bakın eğer aradığınızı bulamadıysanız şimdi iletişime geçin.
               </p>
               <Link href="/#iletisim" className="text-sm font-semibold text-primary hover:underline">
                 Bize ulaşın →

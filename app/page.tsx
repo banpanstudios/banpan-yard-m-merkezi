@@ -17,7 +17,7 @@ export default function Page() {
           <CategoryGrid
             group="main"
             title="Ana destek konuları"
-            description="En sık ihtiyaç duyulan hesap, destek ve ürün konuları."
+            description="Genel olarak en çok aranan başlık konuları"
           />
         </div>
 
