@@ -1,16 +1,17 @@
 import { MessageCircle, Phone, Mail, Ticket } from "lucide-react"
+import { describe } from "node:test"
 
 const channels = [
   {
     icon: MessageCircle,
     title: "Canlı Sohbet",
-    description: "Hafta içi 08:00–24:00 arası ortalama 2 dakikada yanıt.",
+    description: "Hafta içi saat ÖÖ 10.00 ÖS 08.00 arası destek",
     action: "Sohbeti başlat",
   },
   {
     icon: Phone,
     title: "Telefon Desteği",
-    description: "444 0 BAN (444 0 226) hattından bize ulaşın.",
+    description: "TR - 0542 831 04 69 Numaralı destek hattımızdan ücretsiz arayarak destek alın.",
     action: "Numarayı gör",
   },
   {
@@ -22,9 +23,16 @@ const channels = [
   {
     icon: Mail,
     title: "E-posta",
-    description: "destek@banpan.com adresine yazın, 24 saat içinde dönüş.",
+    description: "support@banpansoftware.com veya support-ban-pan-lap-seki@banpansoftware.com ulaşın.",
     action: "E-posta gönder",
   },
+  {
+    icon: Mail,
+    title: "E - işlemler"
+    description: "Yardım almak için E - işemler sayfanıza gidin."
+    action: "E - yönetim panelimi aç "
+  }
+
 ]
 
 export function ContactCta() {
