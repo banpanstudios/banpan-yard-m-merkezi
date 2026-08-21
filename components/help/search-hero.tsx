@@ -33,7 +33,7 @@ export function SearchHero() {
          BANPAN Help Center | BANPAN yardım merkezi
         </h1>
         <p className="mt-4 text-base text-primary-foreground/75 text-pretty sm:text-lg">
-          Hesap merkeiziniz, faturalandırma adresleriniz, şifreleme bilgileriniz veya diğer konuları arayın.
+          Hesap merkeziniz, faturalandırma adresleriniz, şifreleme bilgileriniz veya diğer konuları arayın.
         </p>
 
         <form onSubmit={handleSubmit} className="mx-auto mt-8 max-w-xl">
