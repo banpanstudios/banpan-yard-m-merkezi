@@ -24,12 +24,12 @@ export function SearchBox({ initialQuery }: { initialQuery: string }) {
         <InputGroupInput
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Yardım merkezinde ara"
-          aria-label="Yardım merkezinde ara"
+          placeholder="Yardım merkezinde araba yapın"
+          aria-label="Makalelerde veya yardım konularında arama yapın"
         />
         <InputGroupAddon align="inline-end">
           <InputGroupButton type="submit" size="sm" className="rounded-full bg-accent px-4 text-accent-foreground hover:bg-accent/90">
-            Ara
+            Arama yapın
           </InputGroupButton>
         </InputGroupAddon>
       </InputGroup>

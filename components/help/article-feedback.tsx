@@ -13,7 +13,7 @@ export function ArticleFeedback() {
       {choice ? (
         <p className="flex items-center gap-2 text-sm font-medium text-foreground">
           <Check className="size-4 text-primary" />
-          Geri bildiriminiz için teşekkürler.
+          Geri bildiriminiz için teşekkür ederiz. Geri bildirimleriniz daha fazla geliştirilmesine yardımcı olur.
         </p>
       ) : (
         <>
