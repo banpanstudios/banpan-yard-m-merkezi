@@ -382,6 +382,7 @@ export const categories: Category[] = [
               "Şifrenizi hemen değiştirin",
               "İki adımlı doğrulamayı etkinleştirin",
               "“Şüpheli Etkinlik Bildir” formunu doldurun",
+              "Eğer sorun devam ederse BANPAN QuanTum pro sistemini çalıştırın."
             ],
           },
         ],
