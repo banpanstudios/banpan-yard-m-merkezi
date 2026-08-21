@@ -34,11 +34,11 @@ export function SiteFooter() {
             </ul>
           </div>
           <div>
-            <h3 className="font-heading text-sm font-semibold text-foreground">Kaynaklar</h3>
+            <h3 className="font-heading text-sm font-semibold text-foreground">Diğer kaynaklar</h3>
             <ul className="mt-3 flex flex-col gap-2">
               <li>
                 <Link href="/kategori/gelistirici" className="text-sm text-muted-foreground hover:text-foreground">
-                  Geliştirici Dokümantasyonu
+                  Geliştirici ekibi konuları
                 </Link>
               </li>
               <li>
@@ -82,9 +82,12 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © 2026 BANPAN Corporation. Tüm hakları saklıdır.
+            ©2014 - 2026 BANPAN Corporation. Tüm hakları saklıdır. BANPAN Ticari marka ilkeleri kapsamında tüm sorumluluk reddi kullanıcıya aiitir.
           </p>
           <p className="text-sm text-muted-foreground">Türkiye · Türkçe</p>
+          <p className="text-sm text-muted-foreground">Amerika Birleşik Devletleri · İnglizce</p>
+          <p className="text-sm text-muted-foreground">Dil yok  · Dil yok</p>
+          <p className="text-sm text-muted-foreground">Dil yok · Dil yok</p>
         </div>
       </div>
     </footer>

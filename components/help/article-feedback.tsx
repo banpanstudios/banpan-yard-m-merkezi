@@ -17,7 +17,7 @@ export function ArticleFeedback() {
         </p>
       ) : (
         <>
-          <p className="text-sm font-medium text-foreground">Bu makale yardımcı oldu mu?</p>
+          <p className="text-sm font-medium text-foreground">Bu bilgiler yardımcı oldumu ?</p>
           <div className="flex items-center gap-2">
             <Button
               variant="outline"
@@ -26,7 +26,7 @@ export function ArticleFeedback() {
               className={cn("gap-1.5")}
             >
               <ThumbsUp data-icon="inline-start" />
-              Evet
+              Evet Oldu
             </Button>
             <Button
               variant="outline"
@@ -35,7 +35,7 @@ export function ArticleFeedback() {
               className={cn("gap-1.5")}
             >
               <ThumbsDown data-icon="inline-start" />
-              Hayır
+              Hayır olmadı
             </Button>
           </div>
         </>

@@ -111,7 +111,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {related.length > 0 && (
             <div className="mt-10 border-t border-border pt-8">
               <h2 className="font-heading text-lg font-semibold text-foreground">
-                {category?.name} içinde ilgili makaleler
+                {category?.name} Yardımcı dğer makaleler
               </h2>
               <div className="mt-4 flex flex-col gap-2">
                 {related.map((a) => (
