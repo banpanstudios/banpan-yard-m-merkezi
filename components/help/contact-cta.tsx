@@ -26,12 +26,7 @@ const channels = [
     description: "support@banpansoftware.com veya support-ban-pan-lap-seki@banpansoftware.com ulaşın.",
     action: "E-posta gönder",
   },
-  {
-    icon: Mail,
-    title: "E - işlemler"
-    description: "Yardım almak için E - işemler sayfanıza gidin."
-    action: "E - yönetim panelimi aç "
-  }
+  
 
 ]
 
