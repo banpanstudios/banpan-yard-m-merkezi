@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Mail, Ticket, Mail } from "lucide-react"
+import { MessageCircle, Phone, Mail, Ticket, } from "lucide-react"
 import { describe } from "node:test"
 
 const channels = [
