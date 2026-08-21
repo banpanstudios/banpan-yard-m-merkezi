@@ -5,7 +5,7 @@ import { useState } from "react"
 import { Search } from "lucide-react"
 import { InputGroup, InputGroupInput, InputGroupAddon, InputGroupButton } from "@/components/ui/input-group"
 
-const shortcuts = ["Şifre sıfırlama", "Fatura iadesi", "Aboneliği iptal et", "Canlı destek"]
+const shortcuts = ["Şifre sıfırlama", "Fatura iadesi", "Aboneliği iptal et", "Canlı destek", "Destek konuları", "Yardımcı konular"]
 
 export function SearchHero() {
   const router = useRouter()
@@ -30,10 +30,10 @@ export function SearchHero() {
       />
       <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
         <h1 className="font-heading text-3xl font-bold tracking-tight text-primary-foreground text-balance sm:text-5xl">
-          BANPAN Yardım Merkezi
+         BANPAN Help Center | BANPAN yardım merkezi
         </h1>
         <p className="mt-4 text-base text-primary-foreground/75 text-pretty sm:text-lg">
-          Hesabınız, faturalandırma, güvenlik ve tüm BANPAN ürünleri için yardım makalelerini arayın.
+          Hesap merkeiziniz, faturalandırma adresleriniz, şifreleme bilgileriniz veya diğer konuları arayın.
         </p>
 
         <form onSubmit={handleSubmit} className="mx-auto mt-8 max-w-xl">
@@ -44,7 +44,7 @@ export function SearchHero() {
             <InputGroupInput
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Nasıl yardımcı olabiliriz? Örn. “şifremi unuttum”"
+              placeholder="Size nasıl yardımcı olabiliriz? 'Şifremi unttum'"
               aria-label="Yardım merkezinde ara"
               className="text-base"
             />
