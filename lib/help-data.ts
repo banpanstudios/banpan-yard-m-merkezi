@@ -70,7 +70,7 @@ export const categories: Category[] = [
             heading: "Hesap oluşturma adımları",
             body: "Aşağıdaki adımları takip ederek yeni bir hesap açabilirsiniz:",
             steps: [
-              "banpan.com/hesap adresine gidin ve “Hesap Oluştur” seçeneğine tıklayın",
+              "accounts.banpansoftware..com/hesap adresine gidin ve “Hesap Oluştur” seçeneğine tıklayın",
               "Ad, soyad ve doğum tarihi bilgilerinizi girin",
               "Geçerli bir e-posta adresi veya telefon numarası girin",
               "Güçlü bir şifre belirleyin (en az 10 karakter, büyük/küçük harf ve rakam içermeli)",

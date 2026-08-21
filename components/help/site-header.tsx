@@ -10,7 +10,7 @@ export function SiteHeader() {
             <LifeBuoy className="size-5 text-accent" strokeWidth={2.2} />
           </span>
           <span className="flex flex-col leading-none">
-            <span className="font-heading text-base font-bold tracking-tight">BANPAN</span>
+            <span className="font-heading text-base font-bold tracking-tight">BANPAN </span>
             <span className="text-[11px] font-medium tracking-wide text-primary-foreground/70">
               Yardım Merkezi
             </span>
@@ -33,7 +33,7 @@ export function SiteHeader() {
           href="/#iletisim"
           className="rounded-md bg-accent px-3.5 py-2 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
         >
-          Destek Al
+         Canlı destek merkezine bağlanın
         </Link>
       </div>
     </header>
