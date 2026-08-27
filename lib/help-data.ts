@@ -787,7 +787,7 @@ export const categories: Category[] = [
         readTime: "4 dk",
         updated: "9 Mayıs 2026",
         content: [
-          { body: "Telif hakkınızın ihlal edildiğini düşünüyorsanız copyright@banpan.com adresine resmi bildirim formunu doldurarak iletebilirsiniz." },
+          { body: "Telif hakkınızın ihlal edildiğini düşünüyorsanız copyright@banpansoftware.com adresine resmi bildirim formunu doldurarak iletebilirsiniz. Telif hakkları tebliği ve telif hakkı kanunları gereği BANPAN Corporation'nın tüm hakları yasal ve tüm ticari marklarını koruma kapsamına almaktadır. BANPAN Corporation bu sistemin kullanıcı arabirimi, ABD ve diğer ülkelerde/bölgelerde yürürlülükte olan veya onay beyleyen ticari marka ve diğer fikri mülkiyet hakları tarafından korunmaktadır. © 2014 - 2026 BANPAN Corporation Tüm hakkı ve hakları saklıdır. " },
         ],
       },
     ],
@@ -829,7 +829,7 @@ export const categories: Category[] = [
         readTime: "2 dk",
         updated: "18 Nisan 2026",
         content: [
-          { body: "community.banpan.com adresinden BANPAN Hesabınızla giriş yaparak forumlara katılabilir, soru sorabilir ve diğer kullanıcılara yardımcı olabilirsiniz." },
+          { body: "community.banpansoftware.com adresinden BANPAN Hesabınızla giriş yaparak forumlara katılabilir, soru sorabilir ve diğer kullanıcılara yardımcı olabilirsiniz. Forum kullanıcı olmak için iletişime geçmenizi tavsiye edriz." },
         ],
       },
     ],
@@ -850,7 +850,7 @@ export const categories: Category[] = [
         readTime: "3 dk",
         updated: "22 Mayıs 2026",
         content: [
-          { body: "developers.banpan.com konsoluna giriş yaparak yeni bir proje oluşturun ve “Kimlik Bilgileri” sekmesinden API anahtarınızı üretin." },
+          { body: "deepmeed.banpansoftware.com konsoluna giriş yaparak yeni bir proje oluşturun ve “Kimlik Bilgileri” sekmesinden API anahtarınızı üretin." },
         ],
       },
       {
@@ -860,7 +860,7 @@ export const categories: Category[] = [
         readTime: "2 dk",
         updated: "3 Mayıs 2026",
         content: [
-          { body: "Ücretsiz geliştirici planı dakikada 60 istek ile sınırlıdır. Daha yüksek limitler için Geliştirici Pro planına geçebilirsiniz." },
+          { body: "BANPAN API Hizmetleri kullanılan hizmete göre değişklik gösterebilir. Örneğin Cloud API desteği ücretiz 2.0 sürümü günlük kullanım sınırı 300 (aylık yaklaşık ücretisiz 14.000 istek) olmak üzere yapılandırlmıştır." },
         ],
       },
     ],
