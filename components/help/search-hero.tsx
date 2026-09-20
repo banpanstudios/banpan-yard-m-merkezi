@@ -32,6 +32,7 @@ export function SearchHero() {
         <h1 className="font-heading text-3xl font-bold tracking-tight text-primary-foreground text-balance sm:text-5xl">
          BANPAN Help Center | BANPAN yardım merkezi
         </h1>
+        <p1>Makaleler ile arama yapın "Deneysel özellik"</p1>
         <p className="mt-4 text-base text-primary-foreground/75 text-pretty sm:text-lg">
           Hesap merkeziniz, faturalandırma adresleriniz, şifreleme bilgileriniz veya diğer konuları arayın.
         </p>
