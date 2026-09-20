@@ -861,7 +861,9 @@ export const categories: Category[] = [
         readTime: "2 dk",
         updated: "3 Mayıs 2026",
         content: [
-          { body: "BANPAN API Hizmetleri kullanılan hizmete göre değişklik gösterebilir. Örneğin Cloud API desteği ücretiz 2.0 sürümü günlük kullanım sınırı 300 (aylık yaklaşık ücretisiz 14.000 istek) olmak üzere yapılandırlmıştır." },
+          { body: "BANPAN API Hizmetleri kullanılan hizmete göre değişklik gösterebilir. API destekleri AI hizmetlerimiz ve diğer hizmetler için farklılık gösterebilir." },
+          { body:"TR- API AI Desteği: Türkiye için hellolisa Aı desteği ve api desteği hizmeti kullanımı hakkı günlük kota limiti; 50.000 dir. | Giriş: 0.3 | düşünme ortalama: 4 | Çıkış: 0.8 dir."},
+          { body:""},
         ],
       },
     ],
