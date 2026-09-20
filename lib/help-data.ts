@@ -863,7 +863,7 @@ export const categories: Category[] = [
         content: [
           { body: "BANPAN API Hizmetleri kullanılan hizmete göre değişklik gösterebilir. API destekleri AI hizmetlerimiz ve diğer hizmetler için farklılık gösterebilir." },
           { body:"TR- API AI Desteği: Türkiye için hellolisa Aı desteği ve api desteği hizmeti kullanımı hakkı günlük kota limiti; 50.000 dir. | Giriş: 0.3 | düşünme ortalama: 4 | Çıkış: 0.8 dir."},
-          { body:""},
+          { body:"Kota hakkında yardım: Günlik kotanız limiti aşar ise ücret kesilmez kullanımı sizler belirlersiniz."},
         ],
       },
     ],
