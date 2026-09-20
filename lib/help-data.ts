@@ -850,7 +850,8 @@ export const categories: Category[] = [
         readTime: "3 dk",
         updated: "22 Mayıs 2026",
         content: [
-          { body: "deepmeed.banpansoftware.com konsoluna giriş yaparak yeni bir proje oluşturun ve “Kimlik Bilgileri” sekmesinden API anahtarınızı üretin." },
+          { body: "API anahtarlarınızı ücretli oluşturmak için apı.banpansoftware.com'a gidin eğer ücretsiz (test veya demo) anahtar alacaksanız deepmeed.banpansoftware.com'a gidin." },
+          { body:" 1 - Hesap oluşturun ve hesabınıza API desteğini kurun, kurmak için store.banpansoftware.com'a gidin hesabınızla giriş yapın ve sayfayı yenileyin. Geliştirici olacaksanız demo model tercih edin."},
         ],
       },
       {

@@ -117,7 +117,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             <div className="rounded-lg border border-border bg-primary p-5 text-primary-foreground">
               <h3 className="font-heading text-sm font-semibold">Yanıt bulamadınız mı?</h3>
               <p className="mt-1.5 text-sm text-primary-foreground/75 text-pretty">
-                Destek ekibimiz size yardımcı olmaktan mutluluk duyar.
+              Aradığınızı bulamadınız mı? Destek ekibimiz ile iletişime geçin.
               </p>
               <Link
                 href="/#iletisim"
