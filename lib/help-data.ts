@@ -890,7 +890,7 @@ export const categories: Category[] = [
       },
     ],
   },
-
+]
 
 
 export const allArticles: (Article & { categorySlug: string; categoryName: string })[] = categories.flatMap((c) =>
