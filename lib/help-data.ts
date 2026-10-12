@@ -890,6 +890,29 @@ export const categories: Category[] = [
     ],
   },
 ]
+  {
+    slug: "kargo-teslimat",
+    name: "Kargo ve Teslimat",
+    shortName: "Kargo",
+    description: "Teslimat süreleri, kargo takibi ve adres değişiklikleri",
+    icon: Truck,
+    color: "neutral",
+    group: "other",
+    articles: [
+      {
+        slug: "teslimat-suresi",
+        title: "Siparişim ne zaman elime ulaşır?",
+        summary: "Standart ve hızlı teslimat süreleri.",
+        readTime: "2 dk",
+        updated: "27 Nisan 2026",
+        content: [
+          { body: "Standart teslimat 2-4 iş günü, hızlı teslimat seçeneği ise 1 iş günü içinde tamamlanır. Teslimat süreleri bölgeye göre değişebilir." },
+        ],
+      },
+    ],
+  },
+]
+
 
 export const allArticles: (Article & { categorySlug: string; categoryName: string })[] = categories.flatMap((c) =>
   c.articles.map((a) => ({ ...a, categorySlug: c.slug, categoryName: c.name })),
