@@ -814,22 +814,23 @@ export const categories: Category[] = [
     ],
   },
   {
-    slug: "topluluk",
-    name: "Topluluk Forumu",
-    shortName: "Topluluk",
-    description: "Diğer kullanıcılarla bağlantı kurun ve deneyim paylaşın",
+    slug: "DeepMeed Builder yardımı",
+    name: "DeppMeed Builder",
+    shortName: "Builder yardımı | Help",
+    description: "Bir proje vaya kod üretin",
     icon: Users,
     color: "neutral",
     group: "other",
     articles: [
       {
-        slug: "foruma-katilim",
-        title: "BANPAN Topluluk Forumuna nasıl katılırım?",
-        summary: "Forum üyeliği ve katkı kuralları.",
+        slug: "builder_kullanimi",
+        title: "Builder ile nasıl çalışırım",
+        summary: "Builder kullanım talimatları",
         readTime: "2 dk",
         updated: "18 Nisan 2026",
         content: [
-          { body: "community.banpansoftware.com adresinden BANPAN Hesabınızla giriş yaparak forumlara katılabilir, soru sorabilir ve diğer kullanıcılara yardımcı olabilirsiniz. Forum kullanıcı olmak için iletişime geçmenizi tavsiye edriz." },
+          { body: "BANPAN DeepMeed tarafından geliştirilen  Builder  ile çok şey yapabilirsiniz." },
+           { body: "Kullanım talimatları: Builder.banpansoftware.com'a giriş yapın > Sizleri giriş karşılayacaktır. Menüleri öğrenin. > Hazır şablon seçin veya hazır bloklardan yararlanın. > " },
         ],
       },
     ],
@@ -889,7 +890,8 @@ export const categories: Category[] = [
       },
     ],
   },
-]
+
+
 
 export const allArticles: (Article & { categorySlug: string; categoryName: string })[] = categories.flatMap((c) =>
   c.articles.map((a) => ({ ...a, categorySlug: c.slug, categoryName: c.name })),
