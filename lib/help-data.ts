@@ -815,7 +815,7 @@ export const categories: Category[] = [
   },
   {
     slug: "DeepMeed Builder yardımı",
-    name: "DeppMeed Builder",
+    name: "DeepMeed Builder",
     shortName: "Builder yardımı | Help",
     description: "Bir proje vaya kod üretin",
     icon: Users,
