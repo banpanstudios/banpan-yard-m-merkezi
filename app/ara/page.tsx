@@ -25,7 +25,7 @@ export default async function SearchPage({
       <main className="flex-1">
         <div className="border-b border-border bg-secondary/40 py-10">
           <div className="mx-auto max-w-3xl px-4 sm:px-6">
-            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">Makale arama sonuçlarımız</h1>
+            <h1 className="font-heading text-2xl font-bold tracking-tight text-foreground">Arama sonuçlarınız:</h1>
             <div className="mt-4">
               <SearchBox initialQuery={q ?? ""} />
             </div>
@@ -35,7 +35,7 @@ export default async function SearchPage({
         <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
           {query && (
             <p className="mb-6 text-sm text-muted-foreground">
-              “{q}” için <strong className="text-foreground">{results.length}</strong> sonuç bulundu
+              “{q}” için <strong className="text-foreground">{results.length}</strong> Bir veya birkaç sonuç bulundu.
             </p>
           )}
 

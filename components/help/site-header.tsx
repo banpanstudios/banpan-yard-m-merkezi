@@ -22,7 +22,7 @@ export function SiteHeader() {
             Kategoriler
           </Link>
           <Link href="/#populer" className="transition-colors hover:text-primary-foreground">
-            Popüler Konular
+            Sık bakılan konular
           </Link>
           <Link href="/#iletisim" className="transition-colors hover:text-primary-foreground">
             Bize Ulaşın

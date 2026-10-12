@@ -830,7 +830,7 @@ export const categories: Category[] = [
         updated: "18 Nisan 2026",
         content: [
           { body: "BANPAN DeepMeed tarafından geliştirilen  Builder  ile çok şey yapabilirsiniz." },
-           { body: "Kullanım talimatları: Builder.banpansoftware.com'a giriş yapın > Sizleri giriş karşılayacaktır. Menüleri öğrenin. > Hazır şablon seçin veya hazır bloklardan yararlanın. > " },
+          { body: "Kullanım talimatları: Builder.banpansoftware.com'a giriş yapın > Sizleri giriş karşılayacaktır. Menüleri öğrenin. > Hazır şablon seçin veya hazır bloklardan yararlanın. > " },
         ],
       },
     ],
