@@ -30,11 +30,11 @@ export function SearchHero() {
       />
       <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
         <h1 className="font-heading text-3xl font-bold tracking-tight text-primary-foreground text-balance sm:text-5xl">
-         BANPAN Help Center | BANPAN yardım merkezi
+        BANPAN YARDIM MERKEZİ
         </h1>
-        <h2 className="Makaleler">Makaleler ile arama yapın. ("Deneysel özellik")</h2>
+        <h2>Makaleler arası arama yapın.</h2>
         <p className="mt-4 text-base text-primary-foreground/75 text-pretty sm:text-lg">
-          Hesap merkeziniz, faturalandırma adresleriniz, şifreleme bilgileriniz veya diğer konuları arayın.
+          DeepMeed, hesap merkezi, BANPAN Pay, mağaza ve birçok konuda yardım alın.
         </p>
 
         <form onSubmit={handleSubmit} className="mx-auto mt-8 max-w-xl">
